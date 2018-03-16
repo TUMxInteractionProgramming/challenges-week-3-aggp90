@@ -143,3 +143,70 @@ li img {
     margin-left: 17.5%;
 }
 
+/* ------------------NEWSTUFF--------------------------- */
+
+
+
+#channels {
+     width:40%;
+     display: inline-block;
+height: auto;
+    position:relative;
+   
+}
+div ul {
+    position: relative;
+    top: 0px;
+     overflow-y: scroll;
+    height:500px;
+   
+}
+
+#tab-bar, #chat-bar {
+    position: relative;
+    bottom: 0px;
+     display: flex;
+  flex-direction: row;
+}
+
+#chat {
+    width: 60%;
+    position: absolute;
+    display: inline-block;
+}
+/*app-bar*/
+h1{
+    height: 64px;
+    font-size:medium;
+    line-height: 64px;
+    padding-left: 72px;
+    
+}
+h1 img{
+    position:absolute;
+    left:16px;
+    top:8px;/*64-56px*/
+}
+#chat h1{ padding-left: 16px;}
+
+.message  button{
+    position:relative;
+    bottom:25px;
+    left:590px;
+}
+h3{
+    display: flex;   
+    align-items:baseline;
+    justify-content: space-around;
+}
+#emojis{
+    background-color: white;
+    border:1px solid;
+    width:overflow: px;
+    height: 200px; 
+    overflow: auto;
+font-size:28px;
+text-align:left;}
+
+#chat {
+    overflow-y: auto;}
